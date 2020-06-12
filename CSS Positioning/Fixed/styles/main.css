@@ -1,0 +1,34 @@
+body {
+    background-color: #1f1f1f;
+    color: #bfbfbf;
+    height: 2000px; /*Added height to know the effect of Fixed Positioning while scrolling the browser up and down*/
+}
+
+h1 {
+    font-weight: normal;   
+}
+
+em {
+    color: #e07a05;   
+}
+
+.box {
+    /*Dimensions (width, height, margin-bottom, etc.) of the box representing an element*/
+    width: 100px; 
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.blueBox {
+    background: #627da0;
+    /*Fixes the position of an element to the browser window. The element always stays fixed in place even when scrolling. Fixed positioning helps you to move elements in four directions: top, bottom, left, right relative to the browser window*/
+    position: fixed; 
+    top: 300px;
+    left: 150px;
+    /*No effects? Yes, the reason is that you can't add conflicting values on each axis, vertical (top and bottom) or horizontal (left and top) at the same time, ie use top or bottom not both on the same axis, and left or right not both on the same axis.*/
+    bottom: 300px; 
+}
+
+.greenBox {
+     background: #5b8054;  
+}
