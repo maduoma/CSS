@@ -1,0 +1,39 @@
+body {
+    background-color: #1f1f1f;
+    height: 2000px;
+    color: #bfbfbf;
+}
+
+h1 {
+    font-weight: normal;   
+}
+
+em {
+    color: #dd740b;   
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.blueBox {
+    background: #627da0;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.greenBox {
+    background: #5b8054; 
+}
+
+.container {
+    background: rgba(0,0,0,.4); 
+    width: 200px;
+    height: 200px;
+    /*With this container position set to absolute (like its child blueBox), the blueBox (child) will move relative to this container (parent). It makes the container serves as a reference point to its child while the container can also move relative to the browser window (parent)*/
+    position: absolute;
+    margin-top: 150px;
+}
