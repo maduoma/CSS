@@ -1,0 +1,38 @@
+body {
+    background-color: #1f1f1f;
+    color: #bfbfbf;
+    height: 1000px;
+}
+
+h1 {
+    font-weight: normal;   
+}
+
+em {
+    color: #e07a05;   
+}
+
+.box {
+    background: #627da0;
+    width: 100px;
+    height: 100px;
+}
+
+.blueBox {
+    /* Centering element horizontally */
+    margin: 0 auto; 
+
+}
+
+  /*Centering element vertically*/
+.container {
+    position: absolute;
+    /*50% of the height (100px) measured from the top browser window to the top horizontal edge of the element.*/
+    top: 50%; 
+    /*Moves the element up past the horizontal edge to its centre ie (until horizontal edge is on the element center)*/
+    margin-top: -50px; 
+    /* Set lett: 0 */
+    left: 0;
+    /* We can't have width of 100px and width of 100% on the same element hence the use of the container to apply it differently but on the same element. The use of container helps to set width of 100% on the same element. It is all about imaginations to achieve your objective*/
+    width: 100%;
+}
