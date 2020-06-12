@@ -23,9 +23,11 @@ em {
     background: #627da0;
     /*Fixes the position of an element to the browser window. The element always stays fixed in place even when scrolling. Fixed positioning helps you to move elements in four directions: top, bottom, left, right relative to the browser window*/
     position: fixed; 
+    /*Measures 300px from the top of browser window*/
     top: 300px;
+    /*Measures 150px from the left of browser window*/
     left: 150px;
-    /*No effects? Yes, the reason is that you can't add conflicting values on each axis, vertical (top and bottom) or horizontal (left and top) at the same time, ie use top or bottom not both on the same axis, and left or right not both on the same axis.*/
+    /*No effects? Yes, the reason is that you can't add conflicting values (top and bottom or left and right values) on each axis, ie use top or bottom not both for vertical axis, and left or right not both for horizontal axis.*/
     bottom: 300px; 
 }
 
